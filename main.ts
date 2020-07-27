@@ -26,7 +26,7 @@ function sens () {
     }
 }
 function mouvement () {
-    for (let index = 0; index <= 2; index++) {
+    for (let index = 0; index <= liste.length; index++) {
         led.plotBrightness(0, y - index, liste[index])
         led.plotBrightness(1, y1 - index, liste[index])
         led.plotBrightness(2, y2 - index, liste[index])
