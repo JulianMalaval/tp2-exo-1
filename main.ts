@@ -28,10 +28,10 @@ function sens () {
 function mouvement () {
     for (let index = 0; index <= 2; index++) {
         led.plotBrightness(0, y - index, liste[index])
-        led.plotBrightness(0, y1 - index, liste[index])
-        led.plotBrightness(0, y2 - index, liste[index])
-        led.plotBrightness(0, y3 - index, liste[index])
-        led.plotBrightness(0, y4 - index, liste[index])
+        led.plotBrightness(1, y1 - index, liste[index])
+        led.plotBrightness(2, y2 - index, liste[index])
+        led.plotBrightness(3, y3 - index, liste[index])
+        led.plotBrightness(4, y4 - index, liste[index])
     }
     y += direction
     y1 += direction1
